@@ -1,0 +1,11 @@
+
+cd <ESTA_PASTA>
+
+sudo apt-get -y install make cmake g++ 
+sudo apt-get -y install libx11-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev libxrandr-dev 
+sudo apt-get -y install libxext-dev libxcursor-dev libxinerama-dev libxi-dev
+
+cmake CMakeLists.txt
+
+
+
